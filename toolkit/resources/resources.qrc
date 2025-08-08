@@ -2,5 +2,8 @@
     <qresource prefix="/toolkit">
         <file>qss/dark.qss</file>
         <file>qss/light.qss</file>
+
+        <file>icons/pdf_black.svg</file>
+        <file>icons/pdf_white.svg</file>
     </qresource>
 </RCC>
