@@ -5,5 +5,8 @@
 
         <file>icons/pdf_black.svg</file>
         <file>icons/pdf_white.svg</file>
+
+        <file>i18n/zh_CN.qm</file>
+        <file>i18n/zh_CN.ts</file>
     </qresource>
 </RCC>
