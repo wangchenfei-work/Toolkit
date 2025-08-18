@@ -17,7 +17,7 @@
     </message>
     <message>
         <location filename="../../core.py" line="50"/>
-        <source>Setting</source>
+        <source>Settings</source>
         <translatorcomment>设置</translatorcomment>
         <translation>设置</translation>
     </message>
@@ -26,7 +26,7 @@
     <name>SettingView</name>
     <message>
         <location filename="../../view/setting.py" line="43"/>
-        <source>Setting</source>
+        <source>Settings</source>
         <translatorcomment>设置</translatorcomment>
         <translation>设置</translation>
     </message>
