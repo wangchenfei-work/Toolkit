@@ -1,0 +1,16 @@
+#setting_view,
+#scroll_widget {
+    background-color: transparent;
+}
+
+
+QScrollArea {
+    border: none;
+    background-color: transparent;
+}
+
+
+#setting_label {
+    font: 33px 'Microsoft YaHei Light';
+    background-color: transparent;
+}
