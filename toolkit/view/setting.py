@@ -2,7 +2,16 @@ from toolkit.utils.style_sheet import StyleSheet
 from PySide6 import QtGui, QtCore, QtWidgets
 from qfluentwidgets import (
     ScrollArea,
+    ExpandLayout,
+    InfoBar,
+    SettingCardGroup,
+    OptionsSettingCard,
+    CustomColorSettingCard,
+    ComboBoxSettingCard,
+    FluentIcon,
+    setTheme,
 )
+from toolkit.utils.config import cfg
 
 
 class SettingView(ScrollArea):
