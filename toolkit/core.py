@@ -54,10 +54,14 @@ class MainWindow(SplitFluentWindow):
 
 if __name__ == "__main__":
     # 国际化
-    ft_translator = FluentTranslator(cfg.get(cfg.language).value)
+    locale = cfg.get(cfg.language).value
+    ft_translator = FluentTranslator(locale)
+    qt_translator = QtCore.QTranslator()
+    qt_translator.load(locale.name(), directory=":/toolkit/i18n")
 
     app = QtWidgets.QApplication(sys.argv)
     app.installTranslator(ft_translator)
+    app.installTranslator(qt_translator)
     app.setAttribute(QtCore.Qt.AA_DontCreateNativeWidgetSiblings)
     win = MainWindow()
     win.show()
