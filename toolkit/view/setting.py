@@ -37,10 +37,12 @@ class SettingView(ScrollArea):
 
         # 缩放界面
         self.scroll_widget = QtWidgets.QWidget()
+        self.scroll_widget.setObjectName('scroll_widget')
         self.setWidget(self.scroll_widget)
 
         # 窗口标题
         self.setting_label = QtWidgets.QLabel(self.tr("Setting"), self)
+        self.setting_label.setObjectName('setting_label')
 
         # 个性化分组
         self.personal_group = SettingCardGroup(
