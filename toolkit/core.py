@@ -47,7 +47,7 @@ class MainWindow(SplitFluentWindow):
         self.addSubInterface(
             self.settingView,
             FluentIcon.SETTING,
-            self.tr("Setting"),
+            self.tr("Settings"),
             NavigationItemPosition.BOTTOM,
         )
 

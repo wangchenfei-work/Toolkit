@@ -41,7 +41,7 @@ class SettingView(ScrollArea):
         self.setWidget(self.scroll_widget)
 
         # 窗口标题
-        self.setting_label = QtWidgets.QLabel(self.tr("Setting"), self)
+        self.setting_label = QtWidgets.QLabel(self.tr("Settings"), self)
         self.setting_label.setObjectName('setting_label')
 
         # 个性化分组
