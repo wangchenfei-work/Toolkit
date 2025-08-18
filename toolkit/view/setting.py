@@ -18,6 +18,7 @@ class SettingView(ScrollArea):
     def __init__(self, parent=None):
         super().__init__(parent)
         self.init_ui()
+        self.init_signal()
 
     def init_ui(self):
         """
