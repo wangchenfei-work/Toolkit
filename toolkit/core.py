@@ -23,6 +23,8 @@ class MainWindow(SplitFluentWindow):
         """
         初始化UI
         """
+        self.resize(960, 780)
+        self.setMinimumWidth(760)
 
         # 主页
         self.homeView = HomeView(self)
